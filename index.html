@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" type="image/x-icon" href="spotify.svg">
+</head>
+<body>
+    <div class="container flex bg-black">
+         <div class="left ">
+            <div class="close">
+                <img class="close" width="30"src="cross.svg"  alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1" >
+                <div class="logo invert"><img  width="110" src="logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home"> Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img  class ="invert"src="playlist.svg" alt="playlist">
+                    <h2>
+                        Your Library
+                    </h2>
+                    
+                </div>
+                <div class="songList">
+                    <ul>
+                        <!-- <li>
+                            <img src="music.svg" alt="">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now</span>
+                                <img  class = "invert" src="play.svg" alt="">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+               
+                <div class="footer " >
+                    <div><a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span></a></div> 
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">  <span>Safety & Privacy Center</span> </a> </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span> </a></div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                                <span>Cookies</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                                <span>About Ads</span>
+                            </a>
+                        </div>
+                          
+    
+                </div>
+            </div>
+            
+         </div>
+         <div class="right bg-grey rounded ">
+            <div class="header">
+                <div class="nav">
+                    <div class ="hamburgercontainer">
+
+                  
+                        <img width= "40" class= "invert hamburger" src="hamburger.svg" alt="">
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                       <img src="https://i.scdn.co/image/ab67616d00001e02e3fcf9171730df35aaf03c67" alt="">
+                       <h2>Sleep</h2>
+                       <p>Gentle Ambient piano to help you fall asleep. </p>
+                    </div>
+                    <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0267a876fee5cd00ed0f395a9e" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep. </p>
+                     </div>
+
+                     <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0261589325f2ee1797c6527512" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep. </p>
+                     </div>
+
+                     <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b273cb9323e777a492c342794c2f" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep. </p>
+                     </div>
+
+
+                     <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep. </p>
+                     </div>
+
+
+                     <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02de95675c9c65702dd6a86be1" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep. </p>
+                     </div>
+
+
+                     <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep. </p>
+                     </div>
+
+
+                     <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+                                <!-- Circular background with Spotify green color -->
+                                <circle cx="32" cy="32" r="30" fill="#1DB954" />
+                              
+                                <!-- Play icon -->
+                                <path d="M26 18v28l20-14z" fill="#000000" />
+                              </svg>
+                              
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002ba10dedca313047c2923a708" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep. </p>
+                     </div>
+                     <div class="space">
+
+
+                     </div>
+                    
+                
+                   
+                     </div>
+                     <div class="playbar">
+                        <div class="seekbar">
+                            <div class="circle">
+                                
+                            </div>
+                        </div>
+                        <div class="abovebar">
+                            <div class="songinfo">
+
+                            </div>
+                           <div class="songbuttons">
+                            <img width="31px"  id = "previous" src= "previous.svg" alt="">
+                            <img width="31px"id = "play" src="play.svg" alt="">
+                            <img width="31px"id="next" src="next.svg" alt="">
+                           </div>
+                           <div class="timevol">
+
+                           <div class="songtime">
+    
+                           </div>
+                           <div class="volume">
+                            <img  width="25" src="volume.svg" alt="">
+                            <div class="range">
+                                <input class="hi" type="range" name="volume">
+                            </div>
+                           </div>
+                        </div>
+
+                        </div>
+                      
+                     </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
